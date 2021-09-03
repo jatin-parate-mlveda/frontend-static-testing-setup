@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+## Purpose
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Use this setup for new react projects.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- linter and formatter support
+- auto formatting on commit
+- prevent commit if has linting errors
+- uses eslint bundled in react-scripts only.
 
-### `yarn start`
+## Versions of tools used while creating this project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- node: v16.4.0
+- npm: v7.18.1
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Scripts
 
-### `yarn test`
+- lint: to lint the project using eslint
+- format: format the code using prettier only (can be used for files other than .js and .json)
+- validate: first validate and format the code using eslint and then build the project
+- prepare: install husky while running **npm install**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools used
 
-### `yarn build`
+- **eslint**: for linting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **prettier**: for formatting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **eslint-config-airbnb-base**: airbnb eslint rules
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **eslint-config-prettier**: turn off conflicting rules of eslint with prettier
 
-### `yarn eject`
+- **eslint-plugin-prettier**: show prettier formatting errors in eslint
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **husky**: for pre-commit hooks to lint and format code before commit
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **lint-staged**: Format staged html, css, scss, js and json files with eslint and prettier
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## _VSCode_ settings
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Intall **ESLint** plugin by **Dirk Baeumer**
 
-## Learn More
+- Install **Prettier** plugin by **Prettier**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Please don't delete .vscode/settings.json file as settings in those files will help re-format code with preferred linter/formatter for corresponding file type.
