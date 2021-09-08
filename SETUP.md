@@ -3,9 +3,15 @@
 ### install following dependencies
 
 - dev dependencies
+
   - husky
-    - run "npx husky install"
+
+    - install then run
+
+          npx husky install
+
   - lint-staged
+
 - dependencies
   - eslint-config-airbnb
   - eslint-config-prettier
@@ -23,18 +29,20 @@
 
 ### prettier setup
 
-- copy .prettierrc file to project root
+- copy `.prettierrc` file to project root
 
 ### eslint setup
 
-- copy value of "eslintConfig" key from package.json
+- copy value of `"eslintConfig"` key from package.json, which contains eslint config
 
 ### husky and lint-staged setup
 
-- copy .lintstagedrc file to project root
+- copy `.lintstagedrc` file to project root
 
-- run "npx husky set .husky/pre-commit "npx lint-staged && npm run validate""
+- run
+
+      npx husky set .husky/pre-commit "npx lint-staged && npm run validate"
 
 ### vscode setup
 
-- copy .vscode folder to project root
+- copy `.vscode` (`settings.json` file in that folder specifically which contains formatting and linting rules for various files) folder to project root
