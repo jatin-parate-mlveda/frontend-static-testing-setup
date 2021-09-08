@@ -1,6 +1,7 @@
 ## Purpose
 
-Use this setup for new react projects.
+- Use this setup for new react projects.
+- See [SETUP.md](SETUP.md) file for setup instructions.
 
 ### Features
 
