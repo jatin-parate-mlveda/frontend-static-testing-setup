@@ -20,7 +20,7 @@
 - lint: to lint the project using eslint
 - format: format the code using prettier only (can be used for files other than .js and .json)
 - validate: first validate and format the code using eslint and then build the project
-- prepare: install husky while running **npm install**
+- prepare: auto install and setup **husky** while running **npm install**
 
 ## Tools used
 
