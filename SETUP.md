@@ -45,4 +45,8 @@
 
 ### vscode setup
 
-- copy `.vscode` (`settings.json` file in that folder specifically which contains formatting and linting rules for various files) folder to project root
+- Intall **ESLint** plugin by **Dirk Baeumer**
+
+- Install **Prettier** plugin by **Prettier**
+
+- copy **.vscode** (**settings.json** file in that folder specifically which contains formatting and linting rules for various files) folder to project root
