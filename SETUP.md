@@ -13,10 +13,14 @@
   - lint-staged
 
 - dependencies
+
+  - `npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier prettier`
+
   - eslint-config-airbnb
   - eslint-config-prettier
   - eslint-plugin-prettier
   - prettier
+
 - copy following scripts from package.json
 
   - "lint": "eslint --ignore-path .gitignore .",
