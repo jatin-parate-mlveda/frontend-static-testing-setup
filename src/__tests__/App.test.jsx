@@ -1,9 +1,5 @@
-import { render, cleanup } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from '../App';
-
-afterEach(() => {
-  cleanup();
-});
 
 test('It renders successfully', () => {
   const { container } = render(<App />);
