@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.43.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -23,7 +24,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "prettier": "prettier --ignore-path .gitignore --write \"src**/*.+(js|json)\"",
     "format": "npm run lint -- --fix",
-    "validate": "npm run lint",
+    "validate": "npm run lint && npm run test -- --watchAll=false",
     "prepare": "husky install"
   },
   "eslintConfig": {
