@@ -2,8 +2,8 @@ import { lazy, Suspense } from 'react';
 import { Route, Switch, NavLink, Redirect } from 'react-router-dom';
 import { home, blog } from 'constants/routes';
 import { ErrorBoundary } from 'shared/error-boundary';
+import { Loading } from 'shared';
 
-// import logo from '../assets/images/logo.svg';
 import classes from './app.module.scss';
 
 const BlogDetail = lazy(() =>
@@ -38,7 +38,7 @@ export function App() {
           <Route
             path={blog}
             render={() => (
-              <Suspense fallback={<h1>Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <BlogDetail />
               </Suspense>
             )}
@@ -46,7 +46,7 @@ export function App() {
           <Route
             path={home}
             render={() => (
-              <Suspense fallback={<h1>Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <HomePage />
               </Suspense>
             )}
