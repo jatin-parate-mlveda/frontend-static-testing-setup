@@ -25,7 +25,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "prettier": "prettier --ignore-path .gitignore --write \"src**/*.+(js|json)\"",
     "format": "npm run lint -- --fix",
-    "validate": "npm run lint && npm run test -- --watchAll=false",
+    "validate": "npm run test -- --onlyChanged --watchAll=false",
     "prepare": "husky install"
   },
   "eslintConfig": {

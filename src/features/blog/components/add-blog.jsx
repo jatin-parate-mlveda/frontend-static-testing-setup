@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ReUsableButton } from 'shared';
 
-export const AddBlog = () => {
+export const AddBlog = ({ onAdd }) => {
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
 
@@ -9,6 +9,9 @@ export const AddBlog = () => {
     <form
       onSubmit={e => {
         e.preventDefault();
+        if (onAdd) {
+          onAdd({ title, desc });
+        }
       }}
     >
       <div>
