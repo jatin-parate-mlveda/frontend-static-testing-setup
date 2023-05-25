@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`It renders blogs page loading state 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link\\" href=\\"/home\\">Home</a><a aria-current=\\"page\\" class=\\"app__link active\\" href=\\"/blog-detail\\">Blog</a></header><h1>Loading...</h1></div></div>"`;
-
-exports[`It renders blogs page successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link\\" href=\\"/home\\">Home</a><a aria-current=\\"page\\" class=\\"app__link active\\" href=\\"/blog-detail\\">Blog</a></header><h1>Blog Detail</h1></div></div>"`;
-
-exports[`It renders loading state successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link active\\" href=\\"/home\\" aria-current=\\"page\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><h1>Loading...</h1></div></div>"`;
-
-exports[`It renders successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link active\\" href=\\"/home\\" aria-current=\\"page\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><div class=\\"container\\"><form><div><label for=\\"title\\">Title<input name=\\"title\\" id=\\"title\\" value=\\"\\"></label></div><div><label for=\\"desc\\">Description<input name=\\"desc\\" id=\\"desc\\" value=\\"\\"></label></div><div><button type=\\"submit\\" class=\\" button\\">Submit</button></div></form><div><ul><li>Blog 1</li><li>Blog 2</li><li>Blog 3</li><li>Blog 4</li></ul></div></div></div></div>"`;

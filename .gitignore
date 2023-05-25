@@ -547,7 +547,10 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
-# JIRA plugin
+# JIRA plugi.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscon
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin

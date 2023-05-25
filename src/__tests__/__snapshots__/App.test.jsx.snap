@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders blogs page loading state 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link\\" href=\\"/\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><h1>Page not found!</h1></div></div>"`;
+
+exports[`It renders blogs page successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a class=\\"app__link\\" href=\\"/\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><h1>Page not found!</h1></div></div>"`;
+
+exports[`It renders loading state successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a aria-current=\\"page\\" class=\\"app__link active\\" href=\\"/\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><h1>Loading...</h1></div></div>"`;
+
+exports[`It renders successfully 1`] = `"<div><div class=\\"app\\"><header class=\\"app__header\\"><a aria-current=\\"page\\" class=\\"app__link active\\" href=\\"/\\">Home</a><a class=\\"app__link\\" href=\\"/blog-detail\\">Blog</a></header><div class=\\"container\\"><h1>Hello world!</h1></div></div></div>"`;
