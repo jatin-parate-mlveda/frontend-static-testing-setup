@@ -21,6 +21,8 @@
 - Define node version in package.json
 - Avoid writing os specific commands in package.json scripts, ex: using "rm -rf", "rmdir", "export NODE_ENV=local", "set NODE_ENV=local"
   - Use cross-env package for the same
+- Do not write os specific commands in package.json scripts to load env variables like "sc -ac '. .env.local' && npm run build"
+  - Use env-cmd package for the same
 - No static code, write variables in .env files
 - Avoid writing class components, use function components only
 - Avoid disabling eslint rules extensively
